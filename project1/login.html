@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>微风在线</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/login.css">
+  </head>
+  <body>
+    <div id="site_header"></div>
+    <section id="main" class="clear">
+      <div id="login"><h1>登录或创建一个帐户</h1></div>
+      <div id="new_box">
+        <div id="new">
+          <p>新客服</p>
+          <div>通过创建一个帐户与我们的商店,你将能够完成结帐过程更快,移动存储多个航运地址,查看和跟踪你的订单在你的帐户和更多。</div>
+        </div>
+        <div id="box-bottom" class="box">
+          <h1>新用户注册</h1>
+          <form id="f2"></form>
+          <div class="form-group">
+            <label class="label" for="uname">用户名：</label>
+            <input class="control" form="f2" type="text" id="uname" name="uname" placeholder="请输入你的账户" required maxlength="10" minlength="5"/>
+            <span class="help-block"></span>
+          </div>
+          <div class="form-group">
+            <label class="label" for="upwd">密码：</label>
+            <input class="control" form="f2" type="password" id="upwd" name="upwd" placeholder="请输入你的密码" required/>
+            <span class="help-block"></span>
+          </div>
+          <div class="form-group">
+            <label class="label"></label>
+            <input type="button" value="注册" class="register" id="bt-submit"/>
+          </div>
+          <div class="form-group">
+            <input type="checkbox">
+            <span class="check">我已阅读并且同意《此网站服务使用协议》</span>
+            <p><a href="index.html">已有账户返回</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="site_footer"></div>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>微风在线</title>
+  <meta charset="utf-8"/>
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/pay.css">
+</head>
+
+<body>
+<div id="site_header"></div>
+
+<div id="main">
+  <div class="add-order">
+    <header class="checkout-tit">
+      <span class="tit-txt">填写并核对订单信息</span>
+    </header>
+    <section class="checkout-steps">
+      <div class="step-tit">
+        <h3>收货人信息</h3>
+
+        <div class="extra-r">
+          <a href="#none" class="ftx-05">新增收货地址</a>
+        </div>
+      </div>
+      <div id="addr" class="step-cont">
+        <div class="addr-detail">
+          <span class="addr-name" limit="6" title="张三">张三</span>
+          <span class="addr-info" limit="45" title="深圳市 罗湖区 园岭街道 旭飞花园4号楼520室">深圳市 罗湖区 园岭街道 旭飞花园4号楼520室</span>
+          <span class="addr-tel">136****1379</span>
+        </div>
+      </div>
+      <div class="hr"></div>
+
+      <div class="step-tit">
+        <h3>支付方式</h3>
+      </div>
+      <div class="step-cont">
+        <ul class="payment-list">
+          <li class="payment-item-selected"><b></b>货到付款</li>
+          <li><b></b>支付宝支付</li>
+          <li><b></b>京东支付</li>
+          <li><b></b>在线支付</li>
+        </ul>
+      </div>
+      <div class="hr"></div>
+
+      <div class="step-tit">
+        <h3>送货清单</h3>
+      </div>
+      <div class="step-cont">
+        <section class="shopping-list">
+          <aside>
+            <div class="mode-item-tit">
+              <h4>配送方式</h4>
+            </div>
+            <div class="mode-tab-nav">
+              <span class="m-txt">顺丰快递<i class="qmark-icon qmark-tip"></i></span><b></b>
+            </div>
+            <div class="mode-list">
+              <span class="mode-label ftx-03">标&nbsp;&nbsp;准&nbsp;&nbsp;达：</span>
+              <br/>
+
+              <div class="mode-infor">预计&nbsp;9月9日[周五]&nbsp;09:00-15:00&nbsp;送达</div>
+            </div>
+          </aside>
+          <div class="goods-list">
+            <div class="goods-tit">
+              <h4 class="vendor_name_h" id="0">商家：微风自营</h4>
+            </div>
+            <div class="goods-items">
+              <div class="goods-item">
+                <div class="p-img">
+                  <a target="_blank" href=""><img src="img/product_1.png" alt=""></a>
+                </div>
+                <div class="p-name">
+                  <a href="" target="_blank">
+                    纺必适航影响新西兰温泉
+                  </a>
+                </div>
+                <div class="p-price">
+                  <strong class="jd-price">￥450</strong>
+                  <span class="p-num">x1</span>
+                  <span class="p-state">有货</span>
+                </div>
+              </div>
+              <div class="goods-item">
+                <div class="p-img">
+                  <a target="_blank" href=""><img src="img/product_3.png" alt=""></a>
+                </div>
+                <div class="p-name">
+                  <a href="" target="_blank">
+                    纺必适航影响新西兰温泉
+                  </a>
+                </div>
+                <div class="p-price">
+                  <strong class="jd-price">￥450</strong>
+                  <span class="p-num">x1</span>
+                  <span class="p-state">有货</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="hr"></div>
+
+      <div class="step-tit">
+        <h3>发票信息</h3>
+      </div>
+      <div class="step-content">
+        <div id="part-inv" class="invoice-cont">
+          <span class="mr10"> 普通发票（电子） &nbsp; </span>
+          <span class="mr10"> 个人&nbsp; </span>
+          <span class="mr10"> 明细&nbsp; </span>
+        </div>
+      </div>
+    </section>
+    <div class="order-summary">
+      <div class="statistic fr">
+        <div class="list">
+          <span><em class="ftx-01">3</em> 件商品，总商品金额：</span>
+          <em class="price" id="warePriceId" v="264">￥264.00</em>
+        </div>
+        <div class="list">
+          <span>运费：</span>
+          <em class="price"> ￥0.00</em>
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+    <div class="trade-foot">
+      <div class="trade-foot-detail-com">
+        <div class="fc-price-info">
+          <span class="price-tit">应付总额：</span>
+          <span class="price-num">￥224.40</span>
+        </div>
+        <div class="fc-consignee-info">
+          <span class="mr20" id="sendAddr">寄送至： 深圳市 罗湖区 园岭街道 旭飞花园4号楼520室</span>
+          <span id="sendMobile">收货人：张三 136****1379</span>
+        </div>
+      </div>
+
+      <div id="checkout-floatbar" class="group">
+        <div class="checkout-buttons">
+          <button type="submit" class="checkout-submit">提交订单</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div id="site_footer"></div>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/pay.js"></script>
+
+</body>
+</html>

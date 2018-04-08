@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="css/pay.css"/>
+</head>
+<body>
+  <div class="succeed">
+    您的订单已提交成功，浏览器将在 <span style="color:blue;font-size: 40px">3s</span> 之后返回首页
+  </div>
+  <script src="js/jquery-1.11.3.js"></script>
+  <script>
+    var span=$("span");
+    function task(){
+      var n=parseInt(span.html());
+      if(--n>0){
+        span.html(n+"s");
+      }else{
+        clearInterval(timer);
+        location.href="index.html";
+      }
+    }
+    var timer=setInterval(task,1000);
+  </script>
+</body>
+</html>
