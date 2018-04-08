@@ -27,25 +27,11 @@ jquery + bootstrap + ajax + php + mysql
 
 
 ```
-git clone https://github.com/lvpangpang/weinihaigou-better.git 
+git clone https://github.com/l-h-g/lhg/tree/master/project1
 
-cd weinihaigou-better
+1.在服务器（php+mysql）环境下运行
 
-npm install
-有时候安装依赖后会报错  plantomjs-prebuildt@2.1.15 install 'node install.js'，没关系，也是跑的起来的哈，应该是node版本问题
-
-npm run dev 
-
-```
-
-```
-如果你用过npm run build 打包出来dist文件夹，想运行里面的index.html,可以安装下面的指令来(注意需要修改api.js里面的const pxy = '/api' 改成const pxy = '';)
-npm install http-server
-cd dist
-http-server -P http://www.weinihaigou.com/
-
-或者本地开一个nginx，配置nginx.conf就行
-
+2.把data/luo1.sql导入到数据库
 
 ```
 
@@ -66,7 +52,6 @@ http-server -P http://www.weinihaigou.com/
 - [x] 分类 -- 完成
 - [x] 购物车功能 -- 完成
 - [x] 商品详情页 -- 完成
-- [x] 商家详情页 -- 完成
 - [x] 下单功能 -- 完成 
 - [x] 订单列表 -- 完成
 - [x] 订单详情 -- 完成
