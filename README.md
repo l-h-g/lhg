@@ -85,6 +85,6 @@ http-server -P http://www.weinihaigou.com/
 
 # 部分截图
 
-<img src="https://github.com/l-h-g/project/produkt_slid3.png" width="360" height="500"/>
+<img src="https://github.com/l-h-g/tree/master/project1/img/produkt_slid3.png" width="360" height="500"/>
 
 
